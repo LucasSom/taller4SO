@@ -1,0 +1,62 @@
+# Vim 7.3 generó este archivo "viminfo".
+# Puede editarlo, ¡sólo si tiene cuidado!
+
+# Valor de 'encoding' cuando se escribió este archivo
+*encoding=utf-8
+
+
+# hlsearch on (H) or off (h):
+~h
+# Historia de Línea de órdenes (de lo más nuevo a lo más antiguo):
+:q
+:w
+:q!
+
+# Historia de Cadena de búsqueda (de lo más nuevo a lo más antiguo):
+
+# Historia de Expresión (de lo más nuevo a lo más antiguo):
+
+# Historia de Línea de entrada (de lo más nuevo a lo más antiguo):
+
+# Historia de Línea de entrada (de lo más nuevo a lo más antiguo):
+
+# Registros:
+""-	CHAR	0
+	*
+
+# Marcas en el archivo:
+'0  4  79  ~/vminstall.sh
+'1  1  0  ~/vminstall.sh
+'2  107  0  ~/.bashrc
+
+# Lista de saltos (el más reciente va primero):
+-'  4  79  ~/vminstall.sh
+-'  1  0  ~/vminstall.sh
+-'  107  0  ~/.bashrc
+-'  1  0  ~/.bashrc
+-'  107  0  ~/.bashrc
+-'  1  0  ~/.bashrc
+-'  107  0  ~/.bashrc
+-'  1  0  ~/.bashrc
+-'  107  0  ~/.bashrc
+-'  1  0  ~/.bashrc
+-'  107  0  ~/.bashrc
+-'  1  0  ~/.bashrc
+-'  107  0  ~/.bashrc
+-'  1  0  ~/.bashrc
+-'  107  0  ~/.bashrc
+-'  1  0  ~/.bashrc
+-'  107  0  ~/.bashrc
+-'  1  0  ~/.bashrc
+
+# Historia de las marcas en los archivos (de la más reciente a la más antigua):
+
+> ~/vminstall.sh
+	"	4	79
+	^	4	80
+	.	4	80
+	+	1	0
+	+	4	80
+
+> ~/.bashrc
+	"	107	0

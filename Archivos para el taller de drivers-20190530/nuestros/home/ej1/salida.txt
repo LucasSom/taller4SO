@@ -1,0 +1,36 @@
+/home/ej1/ej1.c:28:1: error: nombre de tipo ‘cdev’ desconocido
+/home/ej1/ej1.c:29:1: error: nombre de tipo ‘file_operations’ desconocido
+/home/ej1/ej1.c:31:1: error: nombre de tipo ‘class’ desconocido
+/home/ej1/ej1.c: En la función ‘hello_init’:
+/home/ej1/ej1.c:55:2: error: ‘fops_nuestro’ no se declaró aquí (primer uso en esta función)
+/home/ej1/ej1.c:55:2: nota: cada identificador sin declarar se reporta sólo una vez para cada función en el que aparece
+/home/ej1/ej1.c:61:2: aviso: se pasa el argumento 1 de ‘cdev_init’ desde un tipo de puntero incompatible [activado por defecto]
+include/linux/cdev.h:21:6: nota: se esperaba ‘struct cdev *’ pero el argumento es de tipo ‘int *’
+/home/ej1/ej1.c:64:2: aviso: ISO C90 prohíbe mezclar declaraciones y código [-Wdeclaration-after-statement]
+/home/ej1/ej1.c:68:2: aviso: se pasa el argumento 1 de ‘cdev_add’ desde un tipo de puntero incompatible [activado por defecto]
+include/linux/cdev.h:27:5: nota: se esperaba ‘struct cdev *’ pero el argumento es de tipo ‘int *’
+/home/ej1/ej1.c:71:11: aviso: asignación desde un tipo de puntero incompatible [activado por defecto]
+/home/ej1/ej1.c:72:2: aviso: se pasa el argumento 1 de ‘device_create’ desde un tipo de puntero incompatible [activado por defecto]
+include/linux/device.h:767:16: nota: se esperaba ‘struct class *’ pero el argumento es de tipo ‘int *’
+/home/ej1/ej1.c:68:6: aviso: variable ‘add_debug’ sin usar [-Wunused-variable]
+/home/ej1/ej1.c:65:6: aviso: variable ‘region_debug’ sin usar [-Wunused-variable]
+/home/ej1/ej1.c: En la función ‘hello_exit’:
+/home/ej1/ej1.c:84:2: aviso: se pasa el argumento 1 de ‘cdev_del’ desde un tipo de puntero incompatible [activado por defecto]
+include/linux/cdev.h:29:6: nota: se esperaba ‘struct cdev *’ pero el argumento es de tipo ‘int *’
+/home/ej1/ej1.c:88:2: aviso: se pasa el argumento 1 de ‘device_destroy’ desde un tipo de puntero incompatible [activado por defecto]
+include/linux/device.h:770:13: nota: se esperaba ‘struct class *’ pero el argumento es de tipo ‘int *’
+/home/ej1/ej1.c:89:2: aviso: se pasa el argumento 1 de ‘class_destroy’ desde un tipo de puntero incompatible [activado por defecto]
+include/linux/device.h:403:13: nota: se esperaba ‘struct class *’ pero el argumento es de tipo ‘int *’
+/home/ej1/ej1.c: En el nivel principal:
+/home/ej1/ej1.c:29:24: aviso: se define ‘nuestro_fops’ pero no se usa [-Wunused-variable]
+/home/ej1/ej1.c: En la función ‘close_nuestro’:
+/home/ej1/ej1.c:47:1: aviso: el control alcanza el final de una función que no es void [-Wreturn-type]
+/home/ej1/ej1.c: En la función ‘open_nuestro’:
+/home/ej1/ej1.c:43:1: aviso: el control alcanza el final de una función que no es void [-Wreturn-type]
+/home/ej1/ej1.c: En la función ‘write_nuestro’:
+/home/ej1/ej1.c:39:1: aviso: el control alcanza el final de una función que no es void [-Wreturn-type]
+/home/ej1/ej1.c: En la función ‘read_nuestro’:
+/home/ej1/ej1.c:35:1: aviso: el control alcanza el final de una función que no es void [-Wreturn-type]
+make[2]: *** [/home/ej1/ej1.o] Error 1
+make[1]: *** [_module_/home/ej1] Error 2
+make: *** [all] Error 2

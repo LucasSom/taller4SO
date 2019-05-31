@@ -1,0 +1,1 @@
+cmd_/home/nuestros/ej2.ko := ld -r -m elf_i386 -T /usr/src/linux-headers-3.2.0-23-generic-pae/scripts/module-common.lds --build-id  -o /home/nuestros/ej2.ko /home/nuestros/ej2.o /home/nuestros/ej2.mod.o

@@ -1,0 +1,15 @@
+/home/nuestros/ej1.c: En la función ‘hello_init’:
+/home/nuestros/ej1.c:60:2: aviso: ISO C90 prohíbe mezclar declaraciones y código [-Wdeclaration-after-statement]
+/home/nuestros/ej1.c:64:6: aviso: variable ‘add_debug’ sin usar [-Wunused-variable]
+/home/nuestros/ej1.c:61:6: aviso: variable ‘region_debug’ sin usar [-Wunused-variable]
+/home/nuestros/ej2.c: En la función ‘read_nuestro’:
+/home/nuestros/ej2.c:70:2: aviso: ISO C90 prohíbe mezclar declaraciones y código [-Wdeclaration-after-statement]
+/home/nuestros/ej2.c:76:2: aviso: ISO C90 prohíbe mezclar declaraciones y código [-Wdeclaration-after-statement]
+/home/nuestros/ej2.c: En la función ‘write_nuestro’:
+/home/nuestros/ej2.c:110:2: aviso: ISO C90 prohíbe mezclar declaraciones y código [-Wdeclaration-after-statement]
+/home/nuestros/ej2.c:115:3: aviso: formato ‘%d’ espera un argumento de tipo ‘int’, pero el argumento 2 es de tipo ‘long unsigned int’ [-Wformat]
+/home/nuestros/ej2.c:135:2: aviso: ISO C90 prohíbe mezclar declaraciones y código [-Wdeclaration-after-statement]
+/home/nuestros/ej2.c: En la función ‘hello_init’:
+/home/nuestros/ej2.c:188:2: aviso: ISO C90 prohíbe mezclar declaraciones y código [-Wdeclaration-after-statement]
+/home/nuestros/ej2.c:192:6: aviso: variable ‘add_debug’ sin usar [-Wunused-variable]
+/home/nuestros/ej2.c:189:6: aviso: variable ‘region_debug’ sin usar [-Wunused-variable]
